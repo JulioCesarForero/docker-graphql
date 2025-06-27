@@ -75,9 +75,30 @@ Nest is [MIT licensed](LICENSE).
 
 # Mis notas
 
+## Seccion 8
+
 cd C:\CursosUdemy\DockerGuiaPractica\graphql-actions
 
 yarn
 
 yarn start:dev
+
+```
+102. docker build -t juliocesarforero/docker-graphql:0.0.1 .
+```
+
+* Se realiza un ajuste sobre el archivo original de Dockerfile
+
+Validar la construccion o build de la imagen 
+
+docker image ls
+
+docker container run -p 3000:3000 juliocesarforero/docker-graphql:0.0.1
+
+
+## se usa versionamiento semantico
+
+https://github.com/marketplace/actions/git-semantic-version
+
+Se usan secrets en el proyecto para poder hacer el push a dockerhub agregando usuario y API token
 
